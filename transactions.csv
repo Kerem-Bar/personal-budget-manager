@@ -1,0 +1,9 @@
+id,date,type,category,description,amount,source,merchant,paymentMethod
+1,2026-06-01,income,Salary,June Salary,12000.0,Company,,
+2,2026-06-02,expense,Food,Supermarket Groceries,450.0,,Shufersal,Credit Card
+3,2026-06-03,expense,Transport,Monthly Bus Pass,210.0,,Rav Kav,Cash
+4,2026-06-05,income,Freelance,Web Design Project,2500.0,Client,,
+5,2026-06-10,expense,Food,Restaurant Dinner,180.0,,Japanika,Credit Card
+6,2026-06-15,expense,Entertainment,Cinema Tickets,90.0,,Planet Cinema,Credit Card
+7,2026-06-20,expense,Bills,Electricity Bill,320.0,,Electric Co,Bank Transfer
+8,2026-07-01,income,Salary,July Salary,12000.0,Company,,
