@@ -90,7 +90,6 @@ pytest -v
 ## 👤 Author
 
 **Kerem Bar**  
-ָ*Master's Student in Information Sciences (Information Technology Specialization)*
-
+*Master's Student in Information Sciences (Information Technology Specialization)*
 
 
