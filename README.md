@@ -60,7 +60,7 @@ budget_project/
 * 📝 **Consistent Type Hints**: Applied across all modules for code safety.
 * 🧪 **Automated Pytest Suite**: 21 unit tests covering edge cases and input validation.
 
-  ## 🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 Run all setup and execution commands in your terminal:
 
