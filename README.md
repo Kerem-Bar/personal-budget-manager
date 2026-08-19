@@ -65,6 +65,7 @@ budget_project/
 1. Clone the repository and enter the directory:
 ```bash
 git clone https://github.com/Kerem-Bar/personal-budget-manager.git
+cd personal-budget-manager
 ```
 
 2. Install dependencies:
