@@ -50,32 +50,6 @@ budget_project/
 
 ---
 
-## 🚀 How to Run the Project
-
-1. **Ensure Dependencies are Installed**:
-```bash
-pip install pandas matplotlib pytest
-
-```
-
-
-2. **Run the Main Application**:
-```bash
-python main.py
-
-```
-
-
-3. **Run Automated Unit Tests**:
-```bash
-pytest -v
-
-```
-
-
-
----
-
 ## 🏆 Implemented Bonus Features
 
 * 🎨 **Matplotlib Bar Charts**: Visualizing expense/income distributions per category.
@@ -85,4 +59,23 @@ pytest -v
 * 💾 **Export Reports to CSV**: Exporting dynamic Pandas reports to external CSV files.
 * 📝 **Consistent Type Hints**: Applied across all modules for code safety.
 * 🧪 **Automated Pytest Suite**: 21 unit tests covering edge cases and input validation.
+
+  ## 🚀 How to Run the Project
+
+Run all setup and execution commands in your terminal:
+
+```bash
+# 1. Clone the repository and navigate into the project folder
+git clone [https://github.com/Kerem-Bar/personal-budget-manager.git](https://github.com/Kerem-Bar/personal-budget-manager.git)
+cd personal-budget-manager
+
+# 2. Install required dependencies
+pip install pandas matplotlib pytest
+
+# 3. Run the main application
+python main.py
+
+# 4. Run automated unit tests
+pytest -v
+```
 
