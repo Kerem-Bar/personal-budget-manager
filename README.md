@@ -62,20 +62,21 @@ budget_project/
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository and enter the directory:
+1. **Setup & Installation:**
 ```bash
 git clone https://github.com/Kerem-Bar/personal-budget-manager.git
 cd personal-budget-manager
-```
-
-2. Install dependencies:
-```bash
 pip install pandas matplotlib pytest
 ```
 
-3. Run the main application:
+2. **Execution & Testing:**
 ```bash
+# Run application
 python main.py
+
+# Run unit tests
+pytest -v
+
 ```
 
 4. Run automated unit tests:
