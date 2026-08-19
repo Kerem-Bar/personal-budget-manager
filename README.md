@@ -2,6 +2,13 @@
 
 A comprehensive, object-oriented Python system for personal financial management. The application allows users to manage incomes and expenses, persist data using CSV files, perform financial reporting with Pandas, visualize data using Matplotlib, and stay within monthly budget limits.
 
+![](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
+![](https://img.shields.io/badge/Architecture-OOP_%26_Inheritance-2563EB?style=flat)
+![](https://img.shields.io/badge/Tests-21_Passed_%7C_Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+![](https://img.shields.io/badge/Pandas-Financial_Analytics-150458?style=flat&logo=pandas&logoColor=white)
+![](https://img.shields.io/badge/Matplotlib-Data_Visualization-11557c?style=flat)
+![](https://img.shields.io/badge/Project-Completed-44cc11?style=flat)
+
 ---
 
 ## 📁 Project Structure
