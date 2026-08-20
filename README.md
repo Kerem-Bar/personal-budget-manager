@@ -13,6 +13,8 @@ A comprehensive, object-oriented Python system for personal financial management
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
 ```text
 budget_project/
 │── main.py                                                 # Application entry point and CLI interactive menus
@@ -22,6 +24,7 @@ budget_project/
 │── test_budget.py                                          # Automated unit tests written with pytest
 │── create_data.py                                          # Helper script to generate initial CSV sample dataset
 │── transactions.csv                                        # Data persistence storage
+│── expenses_by_category.png                                # Generated Matplotlib categorical distribution chart
 │── Personal Budget Manager - Execution Documentation.pdf   # Complete execution walkthrough & output screenshots
 └── README.md                                               # System documentation
 ```
