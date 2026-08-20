@@ -48,7 +48,7 @@ budget_project/
 * **Data Visualizations (Matplotlib):** Automated generation and high-resolution export of category-level expense and income distribution charts.
 * **Code Quality & Automated Testing:** Strict type hinting across all modules and an automated 21-test Pytest suite validating input integrity and edge cases.
 
----
+
 
 
 ---
