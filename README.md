@@ -68,7 +68,7 @@ pip install pandas matplotlib pytest
 python main.py
 ```
 
-**4. Run automated unit tests:**
+4. **Run automated unit tests:**
 ```bash
 pytest -v
 ```
