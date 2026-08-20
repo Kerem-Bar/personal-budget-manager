@@ -1,6 +1,6 @@
-# 💰 Personal Budget Manager
+# 💳 Personal Budget Manager
 
-A comprehensive, object-oriented Python system for personal financial management. The application allows users to manage incomes and expenses, persist data using CSV files, perform financial reporting with Pandas, visualize data using Matplotlib, and stay within monthly budget limits.
+A comprehensive, object-oriented Python system for personal financial management. The application allows users to manage incomes and expenses, persist data using CSV files, perform financial reporting with Pandas, visualize data using Matplotlib, and monitor monthly budget limits.
 
 ![](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
 ![](https://img.shields.io/badge/Architecture-OOP_%26_Inheritance-2563EB?style=flat)
@@ -23,48 +23,37 @@ budget_project/
 │── create_data.py       # Helper script to generate initial CSV sample dataset
 │── transactions.csv     # Data persistence storage
 └── README.md            # System documentation
-
 ```
 
 ---
 
 ## 🛠️ Class Architecture & Responsibilities
 
-1. **`Transaction` (`models.py`)**: Base class representing a financial transaction with attributes (`id`, `date`, `type`, `category`, `description`, `amount`) and input validation.
-2. **`Income` (`models.py`)**: Child class inheriting from `Transaction`, adding unique attribute `source`.
+1. **`Transaction` (`models.py`)**: Base class representing a financial transaction with core attributes (`id`, `date`, `type`, `category`, `description`, `amount`) and input validation.
+2. **`Income` (`models.py`)**: Child class inheriting from `Transaction`, adding the unique attribute `source`.
 3. **`Expense` (`models.py`)**: Child class inheriting from `Transaction`, adding unique attributes `merchant` and `paymentMethod`.
 4. **`BudgetManager` (`budget_manager.py`)**: Handles in-memory list operations (add, edit, delete, search), sets budget limits, and manages CSV loading and saving.
 5. **`ReportGenerator` (`reports.py`)**: Reads CSV data into Pandas DataFrames to perform financial aggregations, date filtering, CSV report exports, and Matplotlib chart generation.
 
 ---
 
-## 📊 Analytical Reports (Pandas) & Charts (Matplotlib)
+## ⚙️ Key Features & System Capabilities
 
-* **Financial Overview**: Total Income, Total Expense, and Net Balance calculation.
-* **Category Aggregations**: Expenses grouped by Category & Income grouped by Category.
-* **Monthly Summary**: Grouped total amounts by `YYYY-MM` and transaction type.
-* **Transaction Analytics**: Max transaction amount and average expense calculations.
-* **Date Filtering**: Filter transactions within a specified date range (`YYYY-MM-DD`).
-* **CSV Export**: Export generated report DataFrames to customized CSV files.
-* **Visualizations**: Bar charts for Expenses and Incomes per Category (saved automatically as `.png`).
+* **OOP Architecture & Data Persistence:** Hierarchical class structure with inheritance and automatic bidirectional synchronization with `transactions.csv`.
+* **Full Transaction Lifecycle (CRUD):** Add, view, edit by ID, and delete transactions with dynamic auto-incrementing ID generation.
+* **Budget Tracking & Overdraft Alerts:** Configurable monthly spending thresholds with real-time budget status checks and overdraft alerts.
+* **Financial Analytics & Aggregations (Pandas):** Calculation of net balance, categorical expense/income breakdowns, monthly summaries (`YYYY-MM`), and custom date range filtering.
+* **Custom CSV Report Export:** Export dynamically generated Pandas analytical reports directly to customized CSV files.
+* **Data Visualizations (Matplotlib):** Automated generation and high-resolution export of category-level expense and income distribution charts.
+* **Code Quality & Automated Testing:** Strict type hinting across all modules and an automated 21-test Pytest suite validating input integrity and edge cases.
 
 ---
-
-## 🏆 Implemented Bonus Features
-
-* 🎨 **Matplotlib Bar Charts**: Visualizing expense/income distributions per category.
-* 🎯 **Monthly Budget Limit & Alerts**: Setting spending limits with real-time overspending alerts.
-* ✏️ **Edit Existing Transactions**: Updating transaction details by ID with automated persistence.
-* 🗓️ **Date Range Filtering**: Filtering transactions between custom start and end dates.
-* 💾 **Export Reports to CSV**: Exporting dynamic Pandas reports to external CSV files.
-* 📝 **Consistent Type Hints**: Applied across all modules for code safety.
-* 🧪 **Automated Pytest Suite**: 21 unit tests covering edge cases and input validation.
 
 ## 🚀 How to Run the Project
 
 1. Clone the repository and enter the directory:
 ```bash
-git clone https://github.com/Kerem-Bar/personal-budget-manager.git
+git clone [https://github.com/Kerem-Bar/personal-budget-manager.git](https://github.com/Kerem-Bar/personal-budget-manager.git)
 cd personal-budget-manager
 ```
 
@@ -81,15 +70,11 @@ python main.py
 4. Run automated unit tests:
 ```bash
 pytest -v
-
-
 ```
 
-
+---
 
 ## 👤 Author
 
 **Kerem Bar**  
 *Master's Student in Information Sciences (Information Technology Specialization)*
-
-
