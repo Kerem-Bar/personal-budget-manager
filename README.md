@@ -50,6 +50,13 @@ budget_project/
 
 ---
 
+
+## 📊 Visualizations Showcase
+
+<p align="center">
+  <img src="expenses_by_category.png" alt="Expense per Category" width="600"/>
+</p>
+---
 ## 🚀 How to Run the Project
 
 1. **Clone the repository and enter the directory**:
