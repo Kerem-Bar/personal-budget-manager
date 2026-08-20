@@ -11,7 +11,6 @@ A comprehensive, object-oriented Python system for personal financial management
 
 ---
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
