@@ -51,12 +51,18 @@ budget_project/
 ---
 
 
+---
+
 ## 📊 Visualizations Showcase
 
+Automated categorical expense distribution chart generated dynamically by `ReportGenerator` and saved to disk via Matplotlib:
+
 <p align="center">
-  <img src="expenses_by_category.png" alt="Expense per Category" width="600"/>
+  <img src="expenses_by_category.png" alt="Expense per Category" width="450"/>
 </p>
+
 ---
+
 ## 🚀 How to Run the Project
 
 1. **Clone the repository and enter the directory**:
