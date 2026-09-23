@@ -93,4 +93,5 @@ pytest -v
 ## 👤 Author
 
 **Kerem Bar**  
-*Master's Student in Information Sciences (Information Technology Specialization)*
+*Master's Student in Applied Data Science & AI Applications*  
+*Department of Information Science & Artificial Intelligence Applications, Bar-Ilan University*
