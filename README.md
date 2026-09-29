@@ -36,7 +36,7 @@ personal-budget-manager-oop/
 2. **`Income` (`models.py`)**: Child class inheriting from `Transaction`, adding the unique attribute `source`.
 3. **`Expense` (`models.py`)**: Child class inheriting from `Transaction`, adding unique attributes `merchant` and `paymentMethod`.
 4. **`BudgetManager` (`budget_manager.py`)**: Handles in-memory list operations (add, edit, delete, search), sets budget limits, and manages robust Pandas-based CSV loading and saving.
-5. **`ReportGenerator` (`reports.py`)**: Reads CSV data into Pandas DataFrames to perform financial aggregations, wide-format pivoting (`unstack`), date filtering, CSV report exports, and Matplotlib chart generation.
+5. **`ReportGenerator` (`reports.py`)**: Reads CSV data into Pandas DataFrames to perform financial aggregations, wide-format pivoting (unstack), date filtering, CSV report exports, and Matplotlib chart generation.
 
 ---
 
