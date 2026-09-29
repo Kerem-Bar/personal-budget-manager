@@ -42,10 +42,10 @@ personal-budget-manager-oop/
 
 ## ⚙️ Key Features & System Capabilities
 
-* **OOP Architecture & Data Persistence:** Hierarchical class structure with inheritance and automatic bidirectional synchronization with `transactions.csv`.
+* **OOP Architecture & Robust Data Persistence:** Hierarchical class structure with inheritance and automated bidirectional synchronization with CSV storage using Pandas DataFrames.
 * **Full Transaction Lifecycle (CRUD):** Add, view, edit by ID, and delete transactions with dynamic auto-incrementing ID generation.
 * **Budget Tracking & Overdraft Alerts:** Configurable monthly spending thresholds with real-time budget status checks and overdraft alerts.
-* **Financial Analytics & Aggregations (Pandas):** Calculation of net balance, categorical expense/income breakdowns, monthly summaries (`YYYY-MM`), and custom date range filtering.
+* **Financial Analytics & Advanced Reshaping (Pandas):** Calculation of net balance, categorical expense/income breakdowns, wide-format monthly summaries (`YYYY-MM` via *unstack*), and custom date range filtering.
 * **Custom CSV Report Export:** Export dynamically generated Pandas analytical reports directly to customized CSV files.
 * **Data Visualizations (Matplotlib):** Automated generation and high-resolution export of category-level expense and income distribution charts.
 * **Code Quality & Automated Testing:** Strict type hinting across all modules and an automated 21-test Pytest suite validating input integrity and edge cases.
