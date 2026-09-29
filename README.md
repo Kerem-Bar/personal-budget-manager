@@ -15,12 +15,12 @@ A comprehensive, object-oriented Python system for personal financial management
 ## 📁 Project Structure
 
 ```text
-budget_project/
+personal-budget-manager-oop/
 │── main.py                                                 # Application entry point and CLI interactive menus
 │── models.py                                               # OOP Hierarchy: Transaction (Base), Income, Expense
 │── budget_manager.py                                       # Transaction operations, CSV persistence, Budget tracking
 │── reports.py                                              # Pandas analytics, financial reports, and Matplotlib charts
-│── test_budget.py                                          # Automated unit tests written with pytest
+│── test_budget.py                                          # Automated unit tests written with pytest (21 passed)
 │── create_data.py                                          # Helper script to generate initial CSV sample dataset
 │── transactions.csv                                        # Data persistence storage
 │── expenses_by_category.png                                # Generated Matplotlib categorical distribution chart
